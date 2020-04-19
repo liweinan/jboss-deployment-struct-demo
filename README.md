@@ -104,3 +104,10 @@ Hello, world!
 ```
 
 It will give the `Hello, world!` message provided by autowired bean `FooResource`.
+
+Access this URL to test client invocation:
+
+```bash
+$ curl http://localhost:8080/jboss-deployment-demo/rest/client   
+bar                        
+```
